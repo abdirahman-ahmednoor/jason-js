@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Akan Names</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row conntent">
+            <div class="md-to-10 ac-1">
+
+            </div>
+            <div class="md-to-10">
+                <h3 class="intro-text ac-1">Know your Akan name</h3>
+                <p>This website makes a difference you produce your Akan title. All you've got to do is tap on the calender button to input your date of birth, select your sexual orientation, at that point meets up with know your Akan name.</p>
+                <form name="akanEntry">
+                    <div class="form-group">
+                        <label for="e">Select birth date.</label>
+                        <input type="date" class="form-control" id="data">
+                        
+                    </div>
+                    <div class="form-group">
+                        <select name="gender" class="form-control" id="gender">
+                            <option value="">Select your gender</option>
+                            <option value="Male">Male</option>
+                            <option value="Female">Female</option>
+                        </select>
+
+                    </div>
+                </form>
+                <div class="btn">
+                    <input type="button" class="btn btn-primary" value="Get Akan Name" onclick="formValidation()">
+                    <input type="button" class="btn btn-primary" value="Reset" onclick="Reset">
+                </div>
+                <div class="result" id="hidden-display">
+                    <div id="display">
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+    <script src="jason.js"></script>
+    
+</body>
+</html>
