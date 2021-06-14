@@ -1,4 +1,4 @@
-# AkAN NAMES
+# AKAN NAMES
 
 ## AUTHOR
 Abdirahman Noor
@@ -20,9 +20,28 @@ to access this project on your local files, you can clone it using these steps:
 5.JAVASCRIPT
 
 ### BDD
+The web, on opening, displays on the content, loads the form and images.
+The web display styled items, perfectly arranged.
+The form on the web allows the user to click into the calender to select date and the following inputs:
+
+Day of the week (d) = ( ( (CC/4) -2*CC-1) + ((5*YY/4) ) + ((26*(MM+1)/10)) + DD ) mod 7
+
+ where;
+
+ CC - is the century digits. For example 1989 has CC = 19
+
+ YY - is the Year digits (1989 has YY = 89)
+
+ MM -  is the Month
+
+ DD - is the Day of the month 
+
+ mod - is the modulus function ( % )
+
+ This allows the user to clear inputs by clicking on the clear button.
 
 ### LIVE SITE
-View [LIVE]
+View [LIVE] 
 
 ### LICENSE
 This project is under the [MIT](License) license.
