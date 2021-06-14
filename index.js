@@ -37,7 +37,7 @@ let getAkanName = function(day, gender){
 }
 
 let hideElement = function() {
-    var x = document.getElementById("hidden-display");
+    var x = document.getElementById(" hidden-display");
     x.style.display = "block";
     
   }
