@@ -9,7 +9,7 @@ let formValidation = function(){
 
     if(dateData == "" || genderData == ""){
         unhideElement();
-      alert("Ensure all inputs are entered correctly to get your Akan name") 
+      alert("Make sure all inputs are entered correctly to get your Akan name") 
       return false;  
     }else{
         
