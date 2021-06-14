@@ -4,8 +4,8 @@ let femaleAkanNames = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"
 
 let formValidation = function(){
     hideElement();
-    let dateData = document.forms["AkanEntry"]["data"].value
-    let genderData = document.forms["AkanEntry"]["gender"].value
+    let dateData = document.forms["akanEntry"]["data"].value
+    let genderData = document.forms["akanEntry"]["gender"].value
 
     if(dateData == "" || genderData == ""){
         unhideElement();
@@ -37,13 +37,13 @@ let getAkanName = function(day, gender){
 }
 
 let hideElement = function() {
-    var x = document.getElementById("hiden-display");
+    var x = document.getElementById("hidden-display");
     x.style.display = "block";
     
   }
 
   let unhideElement = function() {
-    var x = document.getElementById("hiden-display");
+    var x = document.getElementById("hidden-display");
     x.style.display = "none";
     
   }
