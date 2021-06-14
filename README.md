@@ -41,7 +41,7 @@ Day of the week (d) = ( ( (CC/4) -2*CC-1) + ((5*YY/4) ) + ((26*(MM+1)/10)) + DD 
  This allows the user to clear inputs by clicking on the clear button.
 
 ### LIVE SITE
-View [LIVE] 
+View [LIVE] : https://abdirahman-ahmednoor.github.io/jason-js/
 
 ### LICENSE
 This project is under the [MIT](License) license.
