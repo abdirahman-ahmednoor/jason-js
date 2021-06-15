@@ -37,7 +37,7 @@ body {
     background-clip: padding-box;
 }
 
-.results {
+.result {
     display: block;
     width: 100%;
     font-size: 1rem;
